@@ -1,0 +1,46 @@
+.navbar{
+   display: flex;
+   /* margin: 15px; */
+   padding: 10px;
+   justify-content: space-around;
+   align-items: center;
+   background: rgb(252, 251, 250);
+}
+
+.navbar img{
+   height: 10vh;
+   width: 15vw;
+   border-radius: 20px;
+}
+
+.navbar .tabs{
+   display: inline-flex;
+   list-style: none;
+   font-size: 20px;
+   font-weight: bold;
+   margin-left: -100px;
+}
+
+.navbar .tabs a{
+   color: #fe4c48;
+   text-decoration: none;
+}
+
+.navbar .tabs a:hover{
+   background: antiquewhite;
+   border-radius: 15px;
+   border: 1px solid #fe4c48;
+}
+
+.navbar .btns .signUp{
+   background: #fe4c48;
+   color: antiquewhite;
+   font-weight: bold;
+   border: 2px solid #000;
+}
+
+.navbar .btns .signUp:hover{
+   background: antiquewhite;
+   color: #fe4c48;
+   cursor: pointer;
+}

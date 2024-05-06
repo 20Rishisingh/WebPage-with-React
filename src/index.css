@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: antiquewhite;
+   color:crimson;
+   font-family: "Lora", serif;
+}
+
+button{
+   font-size: 20px;
+   padding: 10px;
+   margin: 15px;
+   border-radius: 25px;
+   color: #fe4c48;
+   background: #fff;
+   border: 1px solid #fe4c48;
+} 
+
+button:hover{
+   background: antiquewhite;
+   cursor: pointer;
+}

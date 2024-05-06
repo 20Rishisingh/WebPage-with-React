@@ -1,0 +1,59 @@
+.footer{
+   height: 80vh;
+   width: 100%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   /* border: 2px solid red; */
+}
+
+.footer .card{
+   height: 65vh;
+   width: 25%;
+   margin: auto;
+   background-color: white;
+   border-radius: 20px;
+   box-shadow: 5px 5px 15px black;
+   /* border: 2px solid black; */
+}
+
+.footer img{
+   height: 70%;
+   width: 60%;
+   margin: 10px 20%;
+}
+
+.footer h2{
+   margin: 0px 40%;
+   font-size: 25px;
+}
+
+.footer p{
+   margin: 20px 15%;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.footer #onboard img{
+   margin: 10px 25%;
+}
+
+.footer #onboard h2{
+   margin: 0px 40%;
+}
+
+.footer #onboard p{
+   margin: 20px 22%;
+}
+
+.footer #trained img{
+   margin: 0px 18%;
+}
+
+.footer #trained h2{
+   margin: 0px 38%;
+}
+
+.footer #trained p{
+   margin: 20px 29%;
+}
